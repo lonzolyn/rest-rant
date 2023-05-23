@@ -9,13 +9,13 @@ router.get('/', (req, res) => {
         city: 'Seattle',
         state: 'WA',
         cuisines: 'Thai, Pan-Asian',
-        pic: 'http://placeitten.com/250/250'
+        pic: '/images/katarznra-gr.png'
     }, {
         name: 'Coding Cat Cafe',
         city: 'Phoenix',
         state: 'AZ',
         cuisine: 'Coffee, Bakery',
-        pic: 'http://placekitten.com/250/250'
+        pic: '/images/beatris-m-5.jpg'
     }]
     res.render('places/index', { places })
     
